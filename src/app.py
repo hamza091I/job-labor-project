@@ -19,6 +19,11 @@ st.set_page_config(page_title="Jordan Labor Law AI", page_icon="⚖️")
 api_key = st.secrets["GOOGLE_API_KEY"]
 
 st.title("⚖️ Jordan Labor Law Assistant")
+with st.sidebar:
+    st.header("Try these questions:")
+    st.info("1. كم عدد أيام الإجازة السنوية؟")
+    st.info("2. ما هي حالات الفصل بدون إشعار؟")
+    st.info("3. What is the maximum duration of a probation period?")
 st.markdown("Ask any question about employment, leaves, or contracts in Jordan.")
 
 # 2. Load the "Brain"
