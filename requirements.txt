@@ -6,3 +6,5 @@ langchain-core
 pypdf
 chromadb
 python-dotenv
+pysqlite3-binary
+protobuf==3.20.3
