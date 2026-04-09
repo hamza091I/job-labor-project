@@ -6,3 +6,4 @@ langchain-core>=0.3.0
 pypdf
 chromadb
 python-dotenv
+protobuf==4.25.3
